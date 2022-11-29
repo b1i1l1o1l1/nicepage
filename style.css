@@ -1,0 +1,393 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.navbar{
+    width: 100%;
+    height: 70px;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.btn{
+    background: none;
+    border: none;
+    font-size: 25px;
+}
+
+.logo{
+    color: #FE7EC9;
+}
+
+.main{
+    display: flex;
+    padding: 0 10%;
+    height: 700px;
+}
+
+.main_text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.main_text h1{
+    color: #488df4;
+    letter-spacing: 4px;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.main_text h2{
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+img{
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top 10%;
+}
+
+@media (max-width: 500px) {
+    .main{
+        flex-direction: column;
+    }
+
+    .main_text{
+        width: 100%;
+        height: 400px;
+        justify-content: space-around;
+    }
+
+    .main_text h1{
+        font-size: 30px;
+    }
+
+    .main_text h2{
+        font-size: 20px;
+    }
+
+    .main img {
+        width: 100%;
+        height: 400px;
+    }
+}
+
+.card1{
+    width: 350px;
+    height: 200px;
+    background-color: aqua;
+}
+.card2{
+    width: 350px;
+    height: 200px;
+    background-color: yellow;
+}
+.card3{
+    width: 350px;
+    height: 200px;
+    background-color: rgb(233, 101, 123);
+}
+.card4{
+    width: 350px;
+    height: 200px;
+    background-color: blue;
+}
+
+.collection{
+    color: white;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards{
+    display: flex;
+}
+
+@media (max-width: 500px) {
+    .cards{
+        flex-direction: column;
+    }
+
+    .container2{
+        width: 30%;
+        height: 70vh;
+    }
+
+    .container3{
+        flex-direction: column;
+    }
+
+    .cart{
+        flex-direction: column;
+    }
+}
+
+.card1 i{
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: rgb(0, 245, 163);
+}
+.card2 i{
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: rgb(0, 245, 163);
+}
+
+.card3 i{
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: rgb(233, 61, 90);
+}
+.card4 i{
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: white;
+}
+
+.container2{
+    width: 100%;
+    height: 70vh;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.collec{
+    font-size: 40px;
+    color: #488df4;
+    font-weight: 700;
+    padding: 30px;
+}
+
+.chiziq{
+    width: 70px;
+    height: 5px;
+    background-color: black;
+}
+
+.collections{
+    font-size: 20px;
+    color: gray;
+    padding: 30px;
+}
+
+.about{
+    text-decoration: none;
+    padding: 20px;
+    color: gray;
+    font-size: 25px;
+}
+
+.tex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    grid-gap: 20px;
+}
+
+.best{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.container3 .class{
+    width: 400px;
+    height: 650px;
+    margin-left: -20px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.card5{
+    width: 250px;
+    height: 300px;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    grid-gap: 10px;
+}
+.card6{
+    width: 250px;
+    height: 300px;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 60px;
+    grid-gap: 10px;
+}
+
+.teacher{
+    text-decoration: none;
+    color: gray;
+    font-size: 25px;
+}
+
+.card5 i{
+    font-size: 45px;
+    width: 50px;
+    height: 50px;
+    color: lightblue;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.card6 i{
+    font-size: 40px;
+    width: 50px;
+    height: 50px;
+    color: pink;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.container3 {
+    display: flex;
+    padding: 30px;
+    grid-gap: 10px;
+}
+
+.read {
+    background-color: lightblue;
+    border: none;
+    cursor: pointer;
+}
+.read2 {
+    background-color: pink;
+    border: none;
+    cursor: pointer;
+}
+
+.cardlar{
+    grid-gap: 10px;
+    display: flex;
+}
+
+.imgs{
+    display: flex;
+    grid-gap: 10px;
+    
+}
+
+.image{
+    width: 200px;
+    height: 300px;
+}
+.images{
+    width: 200px;
+    height: 300px;
+}
+
+.kitob{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.container4{
+    width: 100%;
+    height: 100vh;
+    background-color: yellow;
+
+}
+
+.a{
+    font-size: 30px;
+    color: white;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.h1{
+    font-size: 40px;
+    color: white;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    flex-direction: column;
+}
+
+.card7{
+    width: 270px;
+    height: 370px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    grid-gap: 50px;
+}
+
+span{
+    text-align: center;
+}
+
+h2{
+    color: #FE7EC9;
+}
+
+.cart{
+    display: flex;
+    grid-gap: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.active{
+    color: #488df4;
+}
+
+.creative{
+    color: lightblue;
+}
+.teachers{
+    color: yellow;
+    display: flex;
+}
